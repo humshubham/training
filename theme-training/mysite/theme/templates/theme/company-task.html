@@ -682,10 +682,8 @@
 {% block js %}
 <script src="{% static 'assets/plugins/custom/datatables/datatables.bundle.js' %}"></script>
 <script src="{% static 'assets/js/pages/crud/datatables/basic/basic.js' %}"></script>
-<script>
-	document.getElementById('people').classList.remove('active')
-    document.getElementById('task').classList.add('active')
-    document.getElementById('setting').classList.remove('active')
+<script>            
+	document.getElementById('task').classList.add('active')
 </script>
 
 {% endblock js %}

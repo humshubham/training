@@ -512,7 +512,7 @@
 							<!--begin::User-->
 							<div class="d-flex align-items-center">
 								<div class="symbol symbol-60  mr-5 align-self-start align-self-xxl-center">
-									<div class="symbol-label" style="background-image:url('assets/media/users/300_13.jpg')"></div>
+									<div class="symbol-label" style="background-image:url({% static 'assets/media/users/300_13.jpg'%})"></div>
 								</div>
 								<div>
 									<a href="#" class="font-weight-bold font-size-h5 text-dark-75 text-hover-primary">Amit Verma</a>
@@ -639,7 +639,5 @@
 {% block js %}
 <script>
 	document.getElementById('people').classList.add('active')
-    document.getElementById('task').classList.remove('active')
-    document.getElementById('setting').classList.remove('active')
 </script>
 {% endblock js %}
